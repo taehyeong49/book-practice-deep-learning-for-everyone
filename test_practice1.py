@@ -8,7 +8,7 @@ seed = 0
 numpy.random.seed(seed)
 #tf.set_random_seed(seed)
 
-Data_set = numpy.loadtxt("/home/barkwoodi/testdir/dataset/ThoraricSurgery.csv", delimiter=",")
+Data_set = numpy.loadtxt("/home/barkwoodi/github/book-practice-deep-learning-for-everyone/dataset/ThoraricSurgery.csv", delimiter=",")
 
 X = Data_set[:,0:17]
 Y = Data_set[:,17]
